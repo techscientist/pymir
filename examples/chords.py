@@ -3,9 +3,10 @@ chords.py
 Chord estimator from MP3 file
 Last updated: 9 December 2012
 """
-from __future__ import division 
+from __future__ import division
 
 import sys
+
 sys.path.append('..')
 
 from pymir import AudioFile

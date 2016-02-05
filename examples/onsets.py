@@ -7,7 +7,6 @@ import sys
 sys.path.append('..')
 
 from pymir import AudioFile
-from pymir import Energy
 from pymir import Onsets
 
 import matplotlib.pyplot as plt

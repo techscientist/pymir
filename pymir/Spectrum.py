@@ -5,18 +5,14 @@ Last updated: 17 December 2012
 """
 from __future__ import division
 
-import math
-
+import matplotlib.pyplot as plt
 import numpy
-from numpy import *
-
 import scipy.stats
 import scipy.stats.mstats
+from numpy import *
 
-import matplotlib.pyplot as plt
-
-import pymir
 from pymir import MFCC, Pitch, Transforms
+
 
 class Spectrum(numpy.ndarray):
     

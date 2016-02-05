@@ -6,12 +6,11 @@ Last updated: 15 December 2012
 
 import numpy
 import numpy.fft
+import scipy
 from numpy import *
 
-import scipy
-from scipy.fftpack import *
-
 import pymir
+
 
 # Fourier Transforms
 def fft(frame):

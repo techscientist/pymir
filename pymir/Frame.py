@@ -3,21 +3,17 @@ Frame class
 ndarray subclass for time-series data
 Last updated: 31 January 2014
 """
-import math
-from math import *
 
+import matplotlib.pyplot as plt
 import numpy
 import numpy.fft
+import pyaudio
 from numpy import *
 from numpy.lib import stride_tricks
 
-import scipy
-
-import matplotlib.pyplot as plt
-
 import pymir
-from pymir import Spectrum, Transforms
-import pyaudio
+from pymir import Transforms
+
 
 class Frame(numpy.ndarray):
     

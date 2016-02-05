@@ -7,13 +7,12 @@ Supported methods:
 
 Last updated: 15 December 2012
 """
+import numpy
+from numpy import NaN, Inf, arange, isscalar, asarray
+
 from pymir import Energy
 from pymir import SpectralFlux
 
-import numpy
-from numpy import NaN, Inf, arange, isscalar, array, asarray
-
-import matplotlib.pyplot as plt
 
 def onsets(audioData, method='energy'):
 	onsets = []
